@@ -1,0 +1,20 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+#calcular {
+    background-color: hotpink;
+    border-color: deeppink;
+    color: aliceblue;
+}
+
+h1 {
+    color: hotpink;
+}

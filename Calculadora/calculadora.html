@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora HTML</title>
+    <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<body>
+    <h1>Calculadora HTML </h1>
+    <br>
+    <form action="" method="dialog">
+        <!--se utiliza el form para poder dar enter y calcular mas facil la operacion, el metodo dialog permite que la pag no se recargue-->
+        <input type="text" id="op1" placeholder="Operador 1"> <!--Para la primera linea de la opreacion-->
+        <input type="text" id="operador" placeholder="+, -, *, /"> <!--Para las operaciones disponibles-->
+        <input type="text" id="op2" placeholder="Operador 2"><!--Para la segunda linea de la opreacion-->
+        <br>
+        <input type="submit" id="calcular" value="Calcular"> <!--boton de calcular-->
+    </form>
+    <p id="resultado"></p> <!--Parrafo de resultado(solo se le asigna un ID para poder acceder a el desde JS)-->
+
+
+
+
+
+    <script src="./calculadora.js"></script>
+</body>
+
+</html>
